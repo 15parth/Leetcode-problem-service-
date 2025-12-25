@@ -15,5 +15,5 @@ loadEnv();
 
 export const serverConfig: ServerConfig = {
     PORT: Number(process.env.PORT) || 3001,
-    DB_URL: process.env.DB_URL || "mongodb+srv://Parth:Parth123@first-cluster.egha1en.mongodb.net/"
+    DB_URL: process.env.DB_URL || ""
 };
