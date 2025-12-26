@@ -15,5 +15,5 @@ loadEnv();
 
 export const serverConfig: ServerConfig = {
     PORT: Number(process.env.PORT) || 3001,
-    DB_URL: process.env.DB_URL || ""
+    DB_URL: process.env.DB_URL || " "
 };
